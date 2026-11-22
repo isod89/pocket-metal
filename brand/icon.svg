@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+<defs>
+<radialGradient id="pit" cx="50%" cy="40%" r="60%"><stop offset="0" stop-color="#3a0b0d"/><stop offset="1" stop-color="#0a0505"/></radialGradient>
+<linearGradient id="iron" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8d8a90"/><stop offset="1" stop-color="#3a3236"/></linearGradient>
+<linearGradient id="blood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff3a33"/><stop offset=".6" stop-color="#d8141d"/><stop offset="1" stop-color="#7a0a10"/></linearGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g fill="url(#iron)"><polygon points="60.3,14.1 64.0,2.0 67.7,14.1"/><polygon points="79.6,16.5 87.7,6.7 86.5,19.4"/><polygon points="96.6,26.1 107.8,20.2 101.9,31.4"/><polygon points="108.6,41.5 121.3,40.3 111.5,48.4"/><polygon points="113.9,60.3 126.0,64.0 113.9,67.7"/><polygon points="111.5,79.6 121.3,87.7 108.6,86.5"/><polygon points="101.9,96.6 107.8,107.8 96.6,101.9"/><polygon points="86.5,108.6 87.7,121.3 79.6,111.5"/><polygon points="67.7,113.9 64.0,126.0 60.3,113.9"/><polygon points="48.4,111.5 40.3,121.3 41.5,108.6"/><polygon points="31.4,101.9 20.2,107.8 26.1,96.6"/><polygon points="19.4,86.5 6.7,87.7 16.5,79.6"/><polygon points="14.1,67.7 2.0,64.0 14.1,60.3"/><polygon points="16.5,48.4 6.7,40.3 19.4,41.5"/><polygon points="26.1,31.4 20.2,20.2 31.4,26.1"/><polygon points="41.5,19.4 40.3,6.7 48.4,16.5"/></g>
+<circle cx="64" cy="64" r="51" fill="url(#pit)" stroke="url(#iron)" stroke-width="3"/>
+<circle cx="64" cy="64" r="45" fill="none" stroke="#e41e26" stroke-opacity=".35" stroke-width="1"/>
+<path filter="url(#glow)" fill="url(#blood)" d="M30 92 L38 36 L50 36 L64 62 L78 36 L90 36 L98 92 L84 92 L80 58 L66 84 L62 84 L48 58 L44 92 Z"/>
+<path fill="#ffd6c8" fill-opacity=".55" d="M38 36 L50 36 L52 40 L40 40 Z M78 36 L90 36 L88 40 L76 40 Z"/>
+<path fill="#e41e26" d="M61 84 L67 84 L64 104 Z"/>
+</svg>

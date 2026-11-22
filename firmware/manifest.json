@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "app": {
+    "id": "metal",
+    "name": "POCKET METAL",
+    "version": "v02",
+    "caps": [
+      "stereo",
+      "midi",
+      "store"
+    ],
+    "editor": 1
+  },
+  "packages": [
+    {
+      "model": "PocketX",
+      "product": "PocketX_902",
+      "file": "metal-PocketX_902.fwsc",
+      "size": 676083,
+      "sha256": "1aa8aac560cf4d2050a55c91a283c81ae74f444183af489d17feb3ac10ecf05b"
+    },
+    {
+      "model": "BlackBox",
+      "product": "BlackBox_902",
+      "file": "metal-BlackBox_902.fwsc",
+      "size": 676083,
+      "sha256": "ab5bcaec8f335d75386be1ecdd6609ce849ec7f106d68f24ac2efbe7b6e38ce0"
+    }
+  ]
+}
