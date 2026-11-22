@@ -1,0 +1,1 @@
+POCKET METAL v2, exported from OpenPocket 7ea83be by tools/export_product.mjs. Change it in OpenPocket (https://github.com/isod89/openpocket), then export again.

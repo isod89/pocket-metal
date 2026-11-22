@@ -1,0 +1,9 @@
+build/
+firmware/build/
+docs/firmware/
+*.o
+__pycache__/
+node_modules/
+# your own pedal's backup: never in the repository (it holds the official firmware)
+*.dump.bin
+fm1-1.bin

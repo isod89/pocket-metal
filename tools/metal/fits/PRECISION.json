@@ -1,0 +1,46 @@
+{
+ "name": "PRECISION",
+ "capture": "Phillipe P Precision-Drive-Feather-ESR0,001.nam",
+ "start": "TS9",
+ "clip": "CL_SOFT",
+ "tm": "TM_LP",
+ "roles": [
+  "R_DRIVE",
+  "R_TONE",
+  "R_LEVEL"
+ ],
+ "lag": -4.414288524651544,
+ "values": {
+  "hp": 30.047374735773655,
+  "shelf": 865.2310384391016,
+  "lp": 0.0,
+  "mid": 0.0,
+  "mid_db": 0.0,
+  "mid_q10": 7.0,
+  "g0": 45.80280639896563,
+  "g1": 65.80280639896563,
+  "t0": 2227.0274637732327,
+  "t1": 11993.316312993811,
+  "p2": 0.0,
+  "p2db": 0.0,
+  "blend": 0.0,
+  "bias": 0.0,
+  "gate": 0.0,
+  "trim": 0.09181350802988505,
+  "in_gain": 0.15
+ },
+ "before": {
+  "what": "start (TS9)",
+  "esr_val": 0.504436639352886,
+  "gain": 0.07747631209815713,
+  "val_ltas_db": 12.105573382193406
+ },
+ "after": {
+  "what": "fitted",
+  "esr_val": 0.1154754252683203,
+  "gain": 0.09181350802988505,
+  "val_ltas_db": 1.6504197751181873
+ },
+ "loss": "time",
+ "seconds": 12
+}

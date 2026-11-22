@@ -1,0 +1,47 @@
+{
+ "name": "UBERMETAL",
+ "capture": "Jason Z Line 6 UBERMETAL INSANE droom metal at its best.nam",
+ "start": "SWEDE HM-2",
+ "clip": "CL_HARD",
+ "tm": "TM_HM2",
+ "roles": [
+  "R_DIST",
+  "R_LOW",
+  "R_HIGH",
+  "R_LEVEL"
+ ],
+ "lag": -62.14667242769687,
+ "values": {
+  "hp": 62.04674037276091,
+  "shelf": 0.0,
+  "lp": 0.0,
+  "mid": 0.0,
+  "mid_db": 0.0,
+  "mid_q10": 7.0,
+  "g0": 51.834209449746695,
+  "g1": 76.8342094497467,
+  "t0": 141.50538009159368,
+  "t1": 1788.276215594523,
+  "p2": 0.0,
+  "p2db": 0.0,
+  "blend": 0.0,
+  "bias": 0.0,
+  "gate": 0.0,
+  "trim": 0.2551868409164822,
+  "in_gain": 0.15
+ },
+ "before": {
+  "what": "start (SWEDE HM-2)",
+  "esr_val": 0.8994340249249364,
+  "gain": 0.0950257372924929,
+  "val_ltas_db": 6.807603405013585
+ },
+ "after": {
+  "what": "fitted",
+  "esr_val": 0.9292600780171125,
+  "gain": 0.08950552864598668,
+  "val_ltas_db": 2.48294455879898
+ },
+ "loss": "spectral",
+ "seconds": 13
+}
